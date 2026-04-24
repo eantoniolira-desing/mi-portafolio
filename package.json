@@ -1,0 +1,12 @@
+{
+  "name": "portfolio-innovador",
+  "version": "1.0.0",
+  "description": "Portafolio profesional de Antonio Lira",
+  "scripts": {
+    "dev": "npx http-server ./"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}

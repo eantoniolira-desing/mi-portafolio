@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antonio Lira | Portafolio Innovador</title>
+    <link rel="stylesheet" href="style.css?v=2">
+</head>
+
+<body>
+    <!-- Section 1: Intro (Dark) -->
+    <section class="section-hero">
+        <div class="blueprint-mark" style="top: 2rem; left: 2rem;">COORDINATES: 19.4326 N, 99.1332 W</div>
+        <div class="blueprint-mark" style="bottom: 2rem; left: 2rem;">REF: INTRO_SECTION_V3</div>
+        <nav class="hero-nav fade-in">
+            <a href="#about">ACERCA DE MÍ</a>
+            <a href="#portfolio">PORTAFOLIO</a>
+            <a href="#contact">CONTACTO</a>
+        </nav>
+        <div class="container hero-layout">
+            <div class="hero-content">
+                <h1 class="fade-in">Hola, soy<br>Antonio Lira.</h1>
+                <p class="fade-in" id="hero-bio"></p>
+            </div>
+            <div class="hero-photo fade-in" id="hero-photo">
+                <!-- Photo injected here via JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 2: Portfolio (Light) -->
+    <section class="section-portfolio" id="portfolio">
+        <div class="container">
+            <div class="blueprint-mark" style="margin-bottom: 1rem; position: static;">MODULE: PORTFOLIO_NAV</div>
+            <div id="portfolio-tabs" class="portfolio-tabs fade-in"></div>
+            <div id="portfolio-content" class="category-content-wrap fade-in">
+                <!-- Content will be swapped here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 3: Contact -->
+    <section class="section-contact" id="contact">
+        <div class="container">
+            <div class="contact-layout">
+                <div class="contact-image fade-in">
+                    <img src="./Fotos/Fotos_mias/Foto_final.jpeg" alt="Antonio Lira Contact">
+                </div>
+                <div class="contact-info fade-in">
+                    <h2>Hablemos</h2>
+                    <p id="contact-email" style="font-size: 1.2rem; margin-bottom: 3rem; color: var(--text-gray);"></p>
+
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label>Quién envía</label>
+                            <input type="text" placeholder="Tu nombre">
+                        </div>
+                        <div class="form-group">
+                            <label>Asunto</label>
+                            <input type="text" placeholder="¿En qué puedo ayudarte?">
+                        </div>
+                        <div class="form-group">
+                            <label>Mensaje</label>
+                            <textarea rows="4" placeholder="Cuéntame sobre tu proyecto"></textarea>
+                        </div>
+                        <button type="submit" class="btn-submit">Enviar Mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal for Deep Dive -->
+    <div class="modal" id="project-modal">
+        <button class="modal-close"
+            style="position: fixed; top: 2rem; right: 2rem; background: black; color: white; border: none; padding: 1rem; cursor: pointer; z-index: 2001;"
+            onclick="closeModal()">Cerrar</button>
+        <div class="modal-inner-content" id="modal-content" style="padding: 6rem 0;">
+            <!-- Deep dive sections & sliders injected here -->
+        </div>
+    </div>
+
+    <script src="config.js?v=3"></script>
+    <script src="portfolio.js?v=2"></script>
+</body>
+
+</html>
