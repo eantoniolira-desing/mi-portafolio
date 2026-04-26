@@ -218,11 +218,11 @@ section {
 .portfolio-tabs {
     display: flex;
     justify-content: center;
-    gap: 3rem;
+    flex-wrap: wrap; /* Allow wrapping */
+    gap: 2rem; /* Slightly reduced gap */
     border-bottom: 1px solid var(--border);
     margin-bottom: 4rem;
-    overflow-x: auto;
-    padding-bottom: 1rem;
+    padding-bottom: 0.5rem;
 }
 
 .portfolio-tabs::-webkit-scrollbar { display: none; }
