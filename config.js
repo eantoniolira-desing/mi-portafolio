@@ -1,7 +1,7 @@
 const portfolioConfig = {
     name: "Antonio Lira",
     title: "Diseñador Gráfico & Multimedia",
-    bio: "Diseñador Multimedia con Maestría en Diseño Multimedia y 9+ años de experiencia en entornos B2B y B2G. Especializado en integrar IA Generativa en flujos de producción creativa, con historial comprobado reduciendo tiempos de entrega hasta 30% mediante automatización con Gemini, ChatGPT y Claude.",
+    bio: "Maestro en Diseño Multimedia con 9+ años de experiencia en entornos B2B y B2G. Especializado en integrar IA Generativa en flujos de producción creativa, reduciendo tiempos de entrega hasta 30% mediante integraciones con Gemini, ChatGPT y Claude.",
     profilePhoto: "./Fotos/Fotos_mias/Foto_inicio.jpeg",
     email: "eantonio.lira@gmail.com",
     social: {
