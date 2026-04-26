@@ -384,9 +384,37 @@ const portfolioConfig = {
             description: "Estrategia de identidad y diseño institucional para firmas legales y consultoría profesional.",
             coverImage: "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&q=80&w=800",
             details: [
-                { title: "Branding Institucional", content: "Creación de una marca sólida y confiable para el sector legal.", images: ["https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&q=80&w=600"] },
-                { title: "Papelería Corporativa", content: "Diseño de materiales impresos con acabados de alta fidelidad.", images: ["https://images.unsplash.com/photo-1634942537034-2531766767d1?auto=format&fit=crop&q=80&w=600"] },
-                { title: "Presencia Digital", content: "Adaptación de la identidad visual para plataformas web profesionales.", images: ["https://images.unsplash.com/photo-1586717791821-3f44a563dc4c?auto=format&fit=crop&q=80&w=600"] }
+                { 
+                    title: "Manual de identidad", 
+                    content: "Documento maestro que define el uso correcto de la marca, tipografía y paleta de colores para la firma legal.", 
+                    images: [
+                        "./Fotos/CAB/Manual_de_identidad_Cabrera_Barraza_y_asoc_Pagina_01.jpg",
+                        "./Fotos/CAB/Manual_de_identidad_Cabrera_Barraza_y_asoc_Pagina_02.jpg",
+                        "./Fotos/CAB/Manual_de_identidad_Cabrera_Barraza_y_asoc_Pagina_03.jpg",
+                        "./Fotos/CAB/Manual_de_identidad_Cabrera_Barraza_y_asoc_Pagina_04.jpg",
+                        "./Fotos/CAB/Manual_de_identidad_Cabrera_Barraza_y_asoc_Pagina_05.jpg",
+                        "./Fotos/CAB/Manual_de_identidad_Cabrera_Barraza_y_asoc_Pagina_06.jpg",
+                        "./Fotos/CAB/Manual_de_identidad_Cabrera_Barraza_y_asoc_Pagina_07.jpg",
+                        "./Fotos/CAB/Manual_de_identidad_Cabrera_Barraza_y_asoc_Pagina_08.jpg",
+                        "./Fotos/CAB/Manual_de_identidad_Cabrera_Barraza_y_asoc_Pagina_09.jpg",
+                        "./Fotos/CAB/Manual_de_identidad_Cabrera_Barraza_y_asoc_Pagina_10.jpg",
+                        "./Fotos/CAB/Manual_de_identidad_Cabrera_Barraza_y_asoc_Pagina_11.jpg",
+                        "./Fotos/CAB/Manual_de_identidad_Cabrera_Barraza_y_asoc_Pagina_12.jpg",
+                        "./Fotos/CAB/Manual_de_identidad_Cabrera_Barraza_y_asoc_Pagina_13.jpg",
+                        "./Fotos/CAB/Manual_de_identidad_Cabrera_Barraza_y_asoc_Pagina_14.jpg",
+                        "./Fotos/CAB/Manual_de_identidad_Cabrera_Barraza_y_asoc_Pagina_15.jpg",
+                        "./Fotos/CAB/Manual_de_identidad_Cabrera_Barraza_y_asoc_Pagina_16.jpg",
+                        "./Fotos/CAB/Manual_de_identidad_Cabrera_Barraza_y_asoc_Pagina_17.jpg",
+                        "./Fotos/CAB/Manual_de_identidad_Cabrera_Barraza_y_asoc_Pagina_18.jpg",
+                        "./Fotos/CAB/Manual_de_identidad_Cabrera_Barraza_y_asoc_Pagina_19.jpg",
+                        "./Fotos/CAB/Manual_de_identidad_Cabrera_Barraza_y_asoc_Pagina_20.jpg",
+                        "./Fotos/CAB/Manual_de_identidad_Cabrera_Barraza_y_asoc_Pagina_21.jpg",
+                        "./Fotos/CAB/Manual_de_identidad_Cabrera_Barraza_y_asoc_Pagina_22.jpg",
+                        "./Fotos/CAB/Manual_de_identidad_Cabrera_Barraza_y_asoc_Pagina_23.jpg",
+                        "./Fotos/CAB/Manual_de_identidad_Cabrera_Barraza_y_asoc_Pagina_24.jpg",
+                        "./Fotos/CAB/Manual_de_identidad_Cabrera_Barraza_y_asoc_Pagina_25.jpg"
+                    ] 
+                }
             ]
         },
         {
