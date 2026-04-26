@@ -333,6 +333,7 @@ section {
     display: grid;
     grid-template-columns: 1fr 1.2fr;
     gap: 6rem;
+    align-items: center;
 }
 
 .contact-image {
@@ -357,41 +358,14 @@ section {
     transform: scale(1.02);
 }
 
-/* Form */
-.form-group {
-    margin-bottom: 2rem;
+#contact-email:hover {
+    color: var(--accent) !important;
 }
 
-.form-group label {
+/* Contact Links */
+.contact-info a {
     display: block;
-    font-size: 0.8rem;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    margin-bottom: 0.5rem;
-}
-
-.form-group input, .form-group textarea {
-    width: 100%;
-    padding: 1rem 0;
-    border: none;
-    border-bottom: 1px solid var(--text-dark);
-    font-family: inherit;
-    font-size: 1rem;
-    outline: none;
-}
-
-.form-group input:focus, .form-group textarea:focus {
-    border-bottom-width: 2px;
-}
-
-.btn-submit {
-    background: var(--bg-dark);
-    color: var(--text-light);
-    padding: 1rem 3rem;
-    border: none;
-    font-family: inherit;
-    font-weight: 600;
-    cursor: pointer;
+    width: fit-content;
 }
 
 /* Modal & Sliders */
