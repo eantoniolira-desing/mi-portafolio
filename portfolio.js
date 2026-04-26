@@ -50,7 +50,10 @@ function renderCategory(catId) {
                 <div class="category-info">
                     <h2 class="category-title">${cat.title}</h2>
                     <p class="category-desc">${cat.description}</p>
-                    <a class="btn-more" onclick="openDeepDive('${cat.id}')">CONOCE MÁS ⟶</a>
+                    ${cat.externalLink 
+                        ? `<a href="${cat.externalLink}" target="_blank" class="btn-more">VER EN YOUTUBE ⟶</a>`
+                        : `<a class="btn-more" onclick="openDeepDive('${cat.id}')">CONOCE MÁS ⟶</a>`
+                    }
                 </div>
                 <div class="category-image-wrap">
                     <img src="${cat.coverImage}" alt="${cat.title}">

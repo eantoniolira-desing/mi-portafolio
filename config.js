@@ -12,8 +12,8 @@ const portfolioConfig = {
         {
             id: "kabat",
             name: "Grupo Kabat",
-            title: "Grupo Kabat",
-            description: "Dirección de arte y diseño multimedia para una firma líder en servicios corporativos y bienes raíces de lujo.",
+            title: "Grupo Kabat (En construcción)",
+            description: "Dirección de arte y diseño multimedia para una firma líder en servicios corporativos y bienes raíces de lujo. [Esta sección se encuentra actualmente en desarrollo].",
             coverImage: "./Fotos/Logos/grupo kabat.png",
             details: [
                 { title: "Identidad Digital", content: "Desarrollo de interfaces y activos visuales que reflejan la exclusividad de la marca.", images: ["https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=600"] },
@@ -420,14 +420,22 @@ const portfolioConfig = {
         {
             id: "foto",
             name: "Foto Deportiva",
-            title: "Foto Deportiva",
-            description: "Captura de momentos clave y edición especializada en el mundo del deporte de alto rendimiento.",
+            title: "Foto Deportiva (En construcción)",
+            description: "Captura de momentos clave y edición especializada en el mundo del deporte de alto rendimiento. [Esta sección se encuentra actualmente en desarrollo].",
             coverImage: "https://images.unsplash.com/photo-1461891263873-d81fdf394034?auto=format&fit=crop&q=80&w=800",
             details: [
                 { title: "Fotografía de Acción", content: "Cobertura de eventos deportivos con enfoque en la emoción y el dinamismo.", images: ["https://images.unsplash.com/photo-1461891263873-d81fdf394034?auto=format&fit=crop&q=80&w=600"] },
                 { title: "Retoque Digital", content: "Optimización de imágenes para su publicación inmediata en medios masivos.", images: ["https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&q=80&w=600"] },
                 { title: "Storytelling Deportivo", content: "Creación de narrativas visuales a través de la fotografía.", images: ["https://images.unsplash.com/photo-1461891263873-d81fdf394034?auto=format&fit=crop&q=80&w=600"] }
             ]
+        },
+        {
+            id: "multimedia",
+            name: "Multimedia",
+            title: "Multimedia & YouTube",
+            description: "Producción audiovisual, animación y contenido multimedia para plataformas digitales. Haz clic para explorar mi canal de YouTube y ver mis últimos trabajos.",
+            coverImage: "https://images.unsplash.com/photo-1492724441997-5dc865305da7?auto=format&fit=crop&q=80&w=800",
+            externalLink: "https://www.youtube.com/channel/UCynXHneP-wfv_x2Pp2T5ouA?view_as=subscriber"
         }
     ]
 };
