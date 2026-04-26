@@ -14,7 +14,7 @@ const portfolioConfig = {
             name: "Grupo Kabat",
             title: "Grupo Kabat",
             description: "Dirección de arte y diseño multimedia para una firma líder en servicios corporativos y bienes raíces de lujo.",
-            coverImage: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=800",
+            coverImage: "./Fotos/Logos/grupo kabat.png",
             details: [
                 { title: "Identidad Digital", content: "Desarrollo de interfaces y activos visuales que reflejan la exclusividad de la marca.", images: ["https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=600"] },
                 { title: "Material de Venta", content: "Diseño de brochures digitales e infografías de inversión inmobiliaria.", images: ["https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&q=80&w=600"] },
@@ -26,7 +26,7 @@ const portfolioConfig = {
             name: "Totalplay",
             title: "Totalplay",
             description: "Creación de contenido dinámico y estrategias de diseño para una de las plataformas de telecomunicaciones más innovadoras de México.",
-            coverImage: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=800",
+            coverImage: "./Fotos/Logos/Totalplay.jpg",
             details: [
                 { 
                     title: "Comunicados", 
@@ -74,7 +74,7 @@ const portfolioConfig = {
             name: "PolíticoMx",
             title: "PolíticoMx",
             description: "Liderazgo creativo en la visualización de datos políticos y creación de contenido multimedia de alto tráfico en México.",
-            coverImage: "https://images.unsplash.com/photo-1551288049-bbbda536339a?auto=format&fit=crop&q=80&w=800",
+            coverImage: "./Fotos/Logos/politico.jpg",
             details: [
                 { 
                     title: "Gráficos", 
@@ -194,7 +194,7 @@ const portfolioConfig = {
             name: "Cinema23",
             title: "Cinema23",
             description: "Realización técnica y creativa para la promoción de la cultura cinematográfica en Iberoamérica.",
-            coverImage: "https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&q=80&w=800",
+            coverImage: "./Fotos/Logos/Cinema.jpg",
             details: [
                 { 
                     title: "Fotografía", 
@@ -265,7 +265,7 @@ const portfolioConfig = {
             name: "Indra Group",
             title: "Indra Group",
             description: "Comunicación corporativa y posicionamiento de marca para una de las consultoras tecnológicas más grandes del mundo.",
-            coverImage: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=800",
+            coverImage: "./Fotos/Logos/indra.jpg",
             details: [
                 { 
                     title: "Comunicación Interna", 
@@ -382,7 +382,7 @@ const portfolioConfig = {
             name: "CAB Cabrera Barraza",
             title: "CAB Cabrera Barraza",
             description: "Estrategia de identidad y diseño institucional para firmas legales y consultoría profesional.",
-            coverImage: "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&q=80&w=800",
+            coverImage: "./Fotos/Logos/cab.jpg",
             details: [
                 { 
                     title: "Manual de identidad", 
