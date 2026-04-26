@@ -1,7 +1,7 @@
 const portfolioConfig = {
     name: "Antonio Lira",
     title: "Diseñador Gráfico & Multimedia",
-    bio: "Diseñador Gráfico y Multimedia egresado de UNITEC. Especialista en la creación de contenido visual dinámico, gestión de imagen digital y comunicación estratégica con alcance internacional.",
+    bio: "Diseñador Multimedia con Maestría en Diseño Multimedia y 9+ años de experiencia en entornos B2B y B2G. Especializado en integrar IA Generativa en flujos de producción creativa, con historial comprobado reduciendo tiempos de entrega hasta 30% mediante automatización con Gemini, ChatGPT y Claude.",
     profilePhoto: "./Fotos/Fotos_mias/Foto_inicio.jpeg",
     email: "eantonio.lira@gmail.com",
     social: {
