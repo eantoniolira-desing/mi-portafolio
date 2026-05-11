@@ -104,11 +104,14 @@ function openDeepDive(catId) {
                     <div class="slider-wrapper">
                         <button class="slider-btn slider-prev" onclick="scrollSlider(this, -1)">←</button>
                         <div class="slider-container" id="slider-${sIndex}">
-                            ${section.images.map((img, iIndex) => `
+                            ${section.images.map((img, iIndex) => {
+                                const isVideo = img.toLowerCase().match(/\.(mp4|mov)$/);
+                                return `
                                 <div class="slider-item" onclick="openLightbox(${sIndex}, ${iIndex})">
-                                    <img src="${img}" alt="${section.title}">
+                                    ${isVideo ? `<video src="${img}" autoplay muted loop playsinline></video>` : `<img src="${img}" alt="${section.title}">`}
                                 </div>
-                            `).join('')}
+                                `;
+                            }).join('')}
                         </div>
                         <button class="slider-btn slider-next" onclick="scrollSlider(this, 1)">→</button>
                     </div>
@@ -154,9 +157,11 @@ function updateLightbox() {
     const images = window.currentProjectDetails[currentSIndex].images;
     const src = images[currentIIndex];
     
+    const isVideo = src.toLowerCase().match(/\.(mp4|mov)$/);
+    
     lb.innerHTML = `
         <button class="lightbox-nav lb-prev" onclick="event.stopPropagation(); changeLightboxImage(-1)">‹</button>
-        <img src="${src}" class="lightbox-img">
+        ${isVideo ? `<video src="${src}" class="lightbox-img" autoplay controls playsinline></video>` : `<img src="${src}" class="lightbox-img">`}
         <button class="lightbox-nav lb-next" onclick="event.stopPropagation(); changeLightboxImage(1)">›</button>
         <button onclick="closeLightbox()" style="position: absolute; top: 2rem; right: 2rem; background: none; border: none; color: white; font-size: 2rem; cursor: pointer;">×</button>
     `;

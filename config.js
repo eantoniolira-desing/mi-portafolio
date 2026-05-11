@@ -12,13 +12,53 @@ const portfolioConfig = {
         {
             id: "kabat",
             name: "Grupo Kabat",
-            title: "Grupo Kabat (En construcción)",
-            description: "Dirección de arte y diseño multimedia para una firma líder en servicios corporativos y bienes raíces de lujo. [Esta sección se encuentra actualmente en desarrollo].",
+            title: "Grupo Kabat",
+            description: "Dirección de arte y diseño multimedia para una firma líder en servicios corporativos y bienes raíces de lujo.",
             coverImage: "./Fotos/Logos/grupo kabat.png",
             details: [
-                { title: "Identidad Digital", content: "Desarrollo de interfaces y activos visuales que reflejan la exclusividad de la marca.", images: ["https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=600"] },
-                { title: "Material de Venta", content: "Diseño de brochures digitales e infografías de inversión inmobiliaria.", images: ["https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&q=80&w=600"] },
-                { title: "Comunicación Estratégica", content: "Gestión de la presencia visual en entornos corporativos de alto nivel.", images: ["https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&q=80&w=600"] }
+                { 
+                    title: "Video AI", 
+                    content: "Producciones audiovisuales y motion graphics (se omitieron archivos mayores a 100MB por restricciones de GitHub).", 
+                    images: [
+                        "./Fotos/Grupo Kabat/Video ai/2nd.mp4",
+                        "./Fotos/Grupo Kabat/Video ai/Estadio_azteca.mp4",
+                        "./Fotos/Grupo Kabat/Video ai/Logos_modulos.mp4"
+                    ] 
+                },
+                { 
+                    title: "Comunicados", 
+                    content: "Diseño de campañas, cabeceras y gráficos corporativos para redes.", 
+                    images: [
+                        "./Fotos/Grupo Kabat/comunicados/Captura_de_pantalla_2026-04-27_a_la(s)_5.23.35_p.m..png",
+                        "./Fotos/Grupo Kabat/comunicados/Captura_de_pantalla_2026-04-27_a_la(s)_5.24.07_p.m..png",
+                        "./Fotos/Grupo Kabat/comunicados/campaña_redes3-01-01.jpg",
+                        "./Fotos/Grupo Kabat/comunicados/campaña_redes3-01-02.jpg",
+                        "./Fotos/Grupo Kabat/comunicados/campaña_redes3-01-03.jpg",
+                        "./Fotos/Grupo Kabat/comunicados/esto_es.jpg",
+                        "./Fotos/Grupo Kabat/comunicados/familia.jpg",
+                        "./Fotos/Grupo Kabat/comunicados/fresh_start.jpg",
+                        "./Fotos/Grupo Kabat/comunicados/header-01.jpg",
+                        "./Fotos/Grupo Kabat/comunicados/header-02.jpg",
+                        "./Fotos/Grupo Kabat/comunicados/niv.png",
+                        "./Fotos/Grupo Kabat/comunicados/que_espero.jpg",
+                        "./Fotos/Grupo Kabat/comunicados/somos2.jpg",
+                        "./Fotos/Grupo Kabat/comunicados/video_completo.jpg",
+                        "./Fotos/Grupo Kabat/comunicados/wallpaper_kabat_v6.png"
+                    ] 
+                },
+                { 
+                    title: "Invitaciones", 
+                    content: "Diseño de invitaciones personalizadas y para medios.", 
+                    images: [
+                        "./Fotos/Grupo Kabat/invitaciones/Invitaciones/21.jpg",
+                        "./Fotos/Grupo Kabat/invitaciones/Invitaciones/Aldo_Gomez.png",
+                        "./Fotos/Grupo Kabat/invitaciones/Invitaciones/Cesar_Sanchez.png",
+                        "./Fotos/Grupo Kabat/invitaciones/Invitaciones/Israel_Vega.png",
+                        "./Fotos/Grupo Kabat/invitaciones/Invitaciones/Itzi_Rangel.png",
+                        "./Fotos/Grupo Kabat/invitaciones/Invitaciones/invitacion_medios.jpg",
+                        "./Fotos/Grupo Kabat/invitaciones/Invitaciones/save_the_datejpg.jpg"
+                    ] 
+                }
             ]
         },
         {

@@ -510,7 +510,7 @@ section {
 .lb-prev { left: 2rem; }
 .lb-next { right: 2rem; }
 
-.slider-item img {
+.slider-item img, .slider-item video {
     width: 100%;
     aspect-ratio: 3/2;
     object-fit: cover;
