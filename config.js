@@ -459,14 +459,28 @@ const portfolioConfig = {
         },
         {
             id: "foto",
-            name: "Foto Deportiva",
-            title: "Foto Deportiva (En construcción)",
-            description: "Captura de momentos clave y edición especializada en el mundo del deporte de alto rendimiento. [Esta sección se encuentra actualmente en desarrollo].",
-            coverImage: "https://images.unsplash.com/photo-1461891263873-d81fdf394034?auto=format&fit=crop&q=80&w=800",
+            name: "Foto",
+            title: "Fotografía",
+            description: "Captura de momentos clave y edición especializada. *Nota: Esta sección se encuentra actualmente en desarrollo y se actualizará próximamente con proyectos de Foto Deportiva y de Producto.*",
+            coverImage: "./Fotos/Foto/Corpotativa/IMG_0049.JPG",
             details: [
-                { title: "Fotografía de Acción", content: "Cobertura de eventos deportivos con enfoque en la emoción y el dinamismo.", images: ["https://images.unsplash.com/photo-1461891263873-d81fdf394034?auto=format&fit=crop&q=80&w=600"] },
-                { title: "Retoque Digital", content: "Optimización de imágenes para su publicación inmediata en medios masivos.", images: ["https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&q=80&w=600"] },
-                { title: "Storytelling Deportivo", content: "Creación de narrativas visuales a través de la fotografía.", images: ["https://images.unsplash.com/photo-1461891263873-d81fdf394034?auto=format&fit=crop&q=80&w=600"] }
+                { 
+                    title: "Foto Corporativa", 
+                    content: "Cobertura y retratos para entornos profesionales y corporativos.", 
+                    images: [
+                        "./Fotos/Foto/Corpotativa/IMG_0049.JPG",
+                        "./Fotos/Foto/Corpotativa/IMG_0056.JPG",
+                        "./Fotos/Foto/Corpotativa/IMG_0123.JPG",
+                        "./Fotos/Foto/Corpotativa/IMG_0141.JPG",
+                        "./Fotos/Foto/Corpotativa/IMG_0174.JPG",
+                        "./Fotos/Foto/Corpotativa/IMG_0197.JPG",
+                        "./Fotos/Foto/Corpotativa/IMG_0243.JPG",
+                        "./Fotos/Foto/Corpotativa/IMG_9803.JPG",
+                        "./Fotos/Foto/Corpotativa/IMG_9836.JPG",
+                        "./Fotos/Foto/Corpotativa/IMG_9843.JPG",
+                        "./Fotos/Foto/Corpotativa/IMG_9964.JPG"
+                    ] 
+                }
             ]
         },
         {
