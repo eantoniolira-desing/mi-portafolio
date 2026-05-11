@@ -461,7 +461,7 @@ const portfolioConfig = {
             id: "foto",
             name: "Foto",
             title: "Fotografía",
-            description: "Captura de momentos clave y edición especializada. *Nota: Esta sección se encuentra actualmente en desarrollo y se actualizará próximamente con proyectos de Foto Deportiva y de Producto.*",
+            description: "Captura de momentos clave y edición especializada. *Nota: Esta sección se encuentra en actualización y se complementará próximamente con proyectos de Foto de Producto.*",
             coverImage: "./Fotos/Foto/Corpotativa/IMG_0049.JPG",
             details: [
                 { 
@@ -479,6 +479,24 @@ const portfolioConfig = {
                         "./Fotos/Foto/Corpotativa/IMG_9836.JPG",
                         "./Fotos/Foto/Corpotativa/IMG_9843.JPG",
                         "./Fotos/Foto/Corpotativa/IMG_9964.JPG"
+                    ] 
+                },
+                { 
+                    title: "Foto Deportiva", 
+                    content: "Cobertura de eventos deportivos con enfoque en la emoción y el dinamismo de la acción.", 
+                    images: [
+                        "./Fotos/Foto/Deportiva/17875357395068293.jpg",
+                        "./Fotos/Foto/Deportiva/17881381230095932.jpg",
+                        "./Fotos/Foto/Deportiva/17886047552834342.jpg",
+                        "./Fotos/Foto/Deportiva/17934312677727230.jpg",
+                        "./Fotos/Foto/Deportiva/17938993223714347.jpg",
+                        "./Fotos/Foto/Deportiva/17942037635779342.jpg",
+                        "./Fotos/Foto/Deportiva/18011722187580730.jpg",
+                        "./Fotos/Foto/Deportiva/18056121508604177.jpg",
+                        "./Fotos/Foto/Deportiva/18060167548647554.jpg",
+                        "./Fotos/Foto/Deportiva/18066204964589863.jpg",
+                        "./Fotos/Foto/Deportiva/18093472084449796.jpg",
+                        "./Fotos/Foto/Deportiva/18256409518114768.jpg"
                     ] 
                 }
             ]
