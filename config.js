@@ -13,7 +13,7 @@ const portfolioConfig = {
             id: "kabat",
             name: "Grupo Kabat",
             title: "Grupo Kabat (Actualizándose)",
-            description: "Dirección de arte y diseño multimedia para una firma líder en servicios corporativos y bienes raíces de lujo. *Nota: Por políticas de privacidad y confidencialidad de la información, algunos proyectos se están actualizando progresivamente o han sido omitidos.*",
+            description: "Dirección de arte y diseño multimedia para un grupo de empresas enfocadas en la seguridad de Centros de control C4/C5, tecnología e infraestructura. *Nota: Por políticas de privacidad y confidencialidad de la información, algunos proyectos se están actualizando progresivamente o han sido omitidos.*",
             coverImage: "./Fotos/Logos/grupo kabat.png",
             details: [
                 { 
