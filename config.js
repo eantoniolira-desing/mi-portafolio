@@ -480,7 +480,7 @@ const portfolioConfig = {
             id: "foto",
             name: "Foto",
             title: "Fotografía",
-            description: "Captura de momentos clave y edición especializada. *Nota: Esta sección se encuentra en actualización y se complementará próximamente con proyectos de Foto de Producto.*",
+            description: "Captura de momentos clave y edición especializada.",
             coverImage: "./Fotos/Foto/Corpotativa/IMG_0049.JPG",
             details: [
                 { 
@@ -516,6 +516,32 @@ const portfolioConfig = {
                         "./Fotos/Foto/Deportiva/18066204964589863.jpg",
                         "./Fotos/Foto/Deportiva/18093472084449796.jpg",
                         "./Fotos/Foto/Deportiva/18256409518114768.jpg"
+                    ] 
+                },
+                { 
+                    title: "Foto de Producto", 
+                    content: "Fotografía comercial especializada para resaltar los detalles y calidad de cada producto.", 
+                    images: [
+                        "./Fotos/Foto/Producto/17873653157714907.jpg",
+                        "./Fotos/Foto/Producto/17908705403803973.jpg",
+                        "./Fotos/Foto/Producto/17925973904401502.jpg",
+                        "./Fotos/Foto/Producto/17926528346622374.jpg",
+                        "./Fotos/Foto/Producto/17935558937509032.jpg",
+                        "./Fotos/Foto/Producto/17939584370360480.jpg",
+                        "./Fotos/Foto/Producto/17943619262067509.jpg",
+                        "./Fotos/Foto/Producto/17949249749671890.jpg",
+                        "./Fotos/Foto/Producto/17951665631509013.jpg",
+                        "./Fotos/Foto/Producto/17967235910059899.jpg",
+                        "./Fotos/Foto/Producto/17977763737637761.jpg",
+                        "./Fotos/Foto/Producto/17981274346620865.jpg",
+                        "./Fotos/Foto/Producto/17982122575811155.jpg",
+                        "./Fotos/Foto/Producto/18034031884436068.jpg",
+                        "./Fotos/Foto/Producto/18053152162364684.jpg",
+                        "./Fotos/Foto/Producto/18091256563307105.jpg",
+                        "./Fotos/Foto/Producto/18189637528200838.jpg",
+                        "./Fotos/Foto/Producto/18191037133173966.jpg",
+                        "./Fotos/Foto/Producto/18237222577135055.jpg",
+                        "./Fotos/Foto/Producto/18258742024176910.jpg"
                     ] 
                 }
             ]
