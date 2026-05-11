@@ -58,6 +58,25 @@ const portfolioConfig = {
                         "./Fotos/Grupo Kabat/invitaciones/Invitaciones/invitacion_medios.jpg",
                         "./Fotos/Grupo Kabat/invitaciones/Invitaciones/save_the_datejpg.jpg"
                     ] 
+                },
+                { 
+                    title: "Redes Sociales", 
+                    content: "Estrategia visual y diseño de contenido dinámico para plataformas sociales.", 
+                    images: [
+                        "./Fotos/Grupo Kabat/Redes Sociales/06.jpg",
+                        "./Fotos/Grupo Kabat/Redes Sociales/1-7.png",
+                        "./Fotos/Grupo Kabat/Redes Sociales/17.mp4",
+                        "./Fotos/Grupo Kabat/Redes Sociales/2-7.png",
+                        "./Fotos/Grupo Kabat/Redes Sociales/21.jpg",
+                        "./Fotos/Grupo Kabat/Redes Sociales/23.jpg",
+                        "./Fotos/Grupo Kabat/Redes Sociales/27.jpg",
+                        "./Fotos/Grupo Kabat/Redes Sociales/29.png",
+                        "./Fotos/Grupo Kabat/Redes Sociales/3-7.png",
+                        "./Fotos/Grupo Kabat/Redes Sociales/4-7.png",
+                        "./Fotos/Grupo Kabat/Redes Sociales/8.jpg",
+                        "./Fotos/Grupo Kabat/Redes Sociales/evo_rrss.jpg",
+                        "./Fotos/Grupo Kabat/Redes Sociales/save_the_datejpg.jpg"
+                    ] 
                 }
             ]
         },
